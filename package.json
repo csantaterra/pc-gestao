@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
     "start-dev": "'NODE_ENV=development NODE_HTTPS=true' 'npm run watch'"
   },
   "author": "",
@@ -15,5 +16,8 @@
     "express": "^4.18.2",
     "helmet": "^7.0.0",
     "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "17.x"
   }
 }
